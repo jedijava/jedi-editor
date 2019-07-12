@@ -1,0 +1,13 @@
+.check-item {
+    display: flex;
+    align-items: center;
+}
+
+.check-item-icon {
+    padding-left: 1.2em;
+    margin-right: .5em;
+}
+
+.check-item-icon:hover {
+    cursor: pointer
+}

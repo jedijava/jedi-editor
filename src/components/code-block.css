@@ -1,0 +1,91 @@
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: rgb(180, 182, 179);
+}
+
+.token.keyword {
+    color: #ea5400;
+}
+
+.token.tag {
+    color: blue;
+}
+
+.token.punctuation {
+    color: #000;
+}
+
+.token.operator {
+    color: #00c300;
+}
+
+.token.number {
+    color: #000;
+}
+
+select {
+    border: 1px solid #d9d9d9;
+    border-top: 1.02px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    padding: 2px;
+
+}
+
+select:hover {
+    border: 1px solid #f0656f;
+}
+
+select option:hover {
+    color: #EA5400;
+    cursor: pointer;
+    background-color: beige
+}
+
+.lang-dropdown {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #A6A6A6;
+    width: 100px;
+    cursor: pointer;
+    margin: 0 2px;
+    padding: 0 6px;
+    background-color: white
+}
+
+.lang-menu {
+    width: 100px;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
+    font-size: 1em
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    -ms-overflow-style: scrollbar
+}
+
+code {
+    font-size: 90%;
+    word-break: break-word;
+    padding: 2px 4px;
+    color: #c0341d;
+    background-color: #fbe5e1;
+    border-radius: 4px
+}
+
+pre code {
+    background-color: inherit;
+    color: #000
+}

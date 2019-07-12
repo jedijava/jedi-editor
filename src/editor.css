@@ -1,0 +1,11 @@
+ .jedi-editor-content {
+     margin: 20px 30px;
+     min-height: 200px;
+ }
+
+ blockquote {
+     margin-left: 1.6em;
+     padding-left: 1em;
+     border-left: 3px solid #eee;
+     opacity: .6;
+ }

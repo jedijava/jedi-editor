@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+.sass-cache
+
+log
+dist
+node_modules
+
+package-lock.json

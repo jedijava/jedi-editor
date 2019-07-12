@@ -1,0 +1,47 @@
+{
+  "name": "jedi-editor-react",
+  "version": "1.0.0",
+  "description": "rich text editor, support markdown",
+  "main": "index.js",
+  "author": "jedijava.com",
+  "license": "Apache",
+  "scripts": {
+    "build": "webpack --mode production  --progress",
+    "start": "webpack-dev-server --mode development --progress"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "immutable": "^4.0.0-rc.12",
+    "is-empty": "^1.2.0",
+    "prismjs": "^1.16.0",
+    "rc-dropdown": "^2.4.1",
+    "rc-menu": "^7.4.23",
+    "rc-tooltip": "^3.7.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "slate": "^0.47.4",
+    "slate-html-serializer": "^0.8.5",
+    "slate-react": "^0.22.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@emotion/babel-preset-css-prop": "^10.0.9",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-emotion": "^10.0.13",
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "source-map": "^0.7.3",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}

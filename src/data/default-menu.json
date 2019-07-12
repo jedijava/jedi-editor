@@ -1,0 +1,20 @@
+[
+  [
+    "heading",
+    "bold",
+    "italic",
+    "underline",
+    "strikethrough",
+    "|",
+    "number-list",
+    "bullet-list",
+    "check-list",
+    "blockquote",
+    "|",
+    "code-inline",
+    "code-block",
+    "link",
+    "image"
+  ],
+  ["undo", "redo"]
+]

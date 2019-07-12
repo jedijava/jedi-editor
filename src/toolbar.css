@@ -1,0 +1,19 @@
+ .iconfont {
+     font-size: 1.5em;
+     text-align: center
+ }
+
+ .heading-dropdown {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     color: #A6A6A6;
+     width: 60px;
+     cursor: pointer;
+     margin: 0 2px;
+     padding: 4px 8px
+ }
+
+ .heading-dropdown:hover {
+     background: rgba(0, 0, 0, .05)
+ }
