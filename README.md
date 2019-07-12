@@ -32,6 +32,5 @@ yarn build
 
 ## known issues
 
-- [] chinese input quiekly
-- [] blockquote enter key
-- []
+-[] chinese input quiekly
+-[] blockquote enter key
